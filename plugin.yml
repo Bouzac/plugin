@@ -1,0 +1,34 @@
+name: PluginMC
+version: 1.0
+api-version: 1.13 
+author: Bouzac
+main: ca.bouzac.PluginMC.Main
+commands:
+  test:
+    description: Ceci est un test
+    permission: test.use
+  alert:
+    description: UwU
+    permission: alert.use
+  lobby:
+    description: commande pour se tp au lobby
+  kit:
+    description: donne une armure en fer
+  cobble:
+    description: donne 64 de cobblestone (fragment de pierre)
+  dirt:
+    description: donne 64 de dirt (terre)
+  minage:
+    description: Tp au monde minage
+  standR:
+    description: fais apparaitre un armorstand pour les rouges
+    permission: stand.use
+  standV:
+    description: fait apparaitre un armorstand pour les vert
+    permission: stand.use
+  standB:
+    description: fait apparaitre un armorstand pour les Bleu
+    permission: stand.use
+  standJ:
+    description: fait apparaitre un armorstand pour les Jaunes
+    permission: stand.use
